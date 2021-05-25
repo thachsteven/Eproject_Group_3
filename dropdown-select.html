@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Products</title>
+
+    <style>
+        .wrapper {
+            display: flex;
+            justify-content:  center;
+            flex-wrap: wrap;
+        }
+
+        .data {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+
+    
+    <div class="menu">
+        <select id="name">
+            <option value="nia">Nia Matos</option>
+            <option value="anita">Anita Cruz</option>
+            <option value="reina">Reina Brooks</option>
+            <option value="britney">Britney Cooper</option>
+            <option value="aliah">Aliah Pitts</option>
+            <option value="reyna">Reyna Chung</option>
+        </select>
+    </div>
+
+    <div class="content">
+        <div id="nia" class="data">
+            <p><b>Full Name</b> <span>Nia Matos</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+        <div id="anita" class="data">
+            <p><b>Full Name</b> <span>anita</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+        <div id="reina" class="data">
+            <p><b>Full Name</b> <span>reina</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+        <div id="britney" class="data">
+            <p><b>Full Name</b> <span>britneys</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+        <div id="aliah" class="data">
+            <p><b>Full Name</b> <span>aliahs</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+        <div id="reyna" class="data">
+            <!-- <p class="image" >  <img src="https://gxtanhuong.net/wp-content/uploads/2017/10/Sao.jpg" alt=""> </p> -->
+            <p><b>Full Name</b> <span>reyna</span> </p>
+            <p><b>Email</b> <span>23232@gmail.com</span> </p>
+            <p><b>Phone</b> <span>038464823</span> </p>
+            <p><b>twitter</b> <span>thachpro</span> </p>
+            <p><b>address</b> <span>thachpro hcm</span> </p>
+            <p><b>website</b> <span>thachpro.com</span> </p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    
+
+
+<script>
+$(document).ready(function() {
+        $("#name").on('change', function(){
+            $(".data").hide();
+            $("#" + $(this).val()).fadeIn(700);
+        }).change();
+    });
+</script>
+
+</body>
+</html>

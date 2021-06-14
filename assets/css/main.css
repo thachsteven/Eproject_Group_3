@@ -255,12 +255,15 @@ div .container {
 .header__navbar-other-login-user-icon {
     margin-left: 8px;
     font-size: 1.25rem;
+    margin-right: 3px;
+    cursor: pointer;
 }
-.header__navbar-other-login a {
+.header__navbar-other-login p {
     font-size: 1.2rem;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .header__navbar-other-login a:hover {
@@ -275,7 +278,7 @@ div .container {
 .header__navbar-other-login {
     display: flex;
     align-items: center;
-    
+    margin-left: 5px;
 }
 
 .header__navbar-other-login p {

@@ -15,7 +15,7 @@
   <li><h4>cd Eproject_Group_3</h4></li>
   <li><h4>code .</h4></li>
   <li>
-    <h4>Open with Live Sever (<span>Visual Code Extension</span>)</h4>
+    <h4>Open index.html file with Live Sever (<span>Visual Code Extension</span>)</h4>
   </li>
 </ul>
 
